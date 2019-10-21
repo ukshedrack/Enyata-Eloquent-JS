@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Recursion</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function isEven(N){
+			if (N < 0){return isEven(-N)}
+			else if (N == 0){return true;}
+			else if (N == 1){return false;}
+			else {return isEven(N-2);}
+		}
+		document.write(isEven(N));
+		document.write(isEven(N));
+		document.write(isEven(N));
+	</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<input type="text">
+	<script>
+	  var input = document.querySelector("input");
+	  input.addEventListener("keydown", event => {
+	    if (event.key == "Q" || event.key == "W" || event.key == "X") {
+	    	event.preventDefault();
+	    }
+	  });
+	</script>
+</body>
+</html>
