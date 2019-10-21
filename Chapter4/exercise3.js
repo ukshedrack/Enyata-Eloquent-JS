@@ -14,3 +14,5 @@ function prepend(value, list){
 	return {value, rest: list};
 }
 console.log(prepend(1, prepend(2, null)));
+
+console.log(true * "monkey");
